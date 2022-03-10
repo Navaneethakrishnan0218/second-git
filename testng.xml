@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="chrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="org.pom.testNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="gecko">
+  <parameter name="browser" value="firebox"></parameter>
+  <classes>
+  <class name="org.mvn.testNG"></class>
+  </classes>
+   </test> <!-- Test -->
+  
+  <test name="ie">
+  <parameter name="browser" value="ie"></parameter>
+  <classes>
+  <class name="org.mvn.testNG"/>
+  </classes>
+   </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
